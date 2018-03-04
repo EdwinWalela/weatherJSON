@@ -1,0 +1,135 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+.container
+{
+	width: 100%;
+	height: 100%;
+}
+
+.header
+{
+	border-bottom: 3px solid rgba(0,0,0,0.1);
+	padding: 20px;
+	text-align: center;
+	
+}
+
+#temp
+{
+	border: solid 0px;
+	width: 50%;
+	margin: 2em auto 5em auto;
+	height: 200px
+}
+
+#current-temp
+{
+	font-size: 7em;
+	text-align: center;
+	widows: inherit;
+}
+
+#day
+{
+	letter-spacing: 3px;
+	text-align: center;
+	margin-top: -1em;
+	font-weight: 700;
+}
+
+
+.icon{
+	margin-top: 10px;;
+	font-size: 2em;
+	position: relative;
+	border: solid 0px;
+	width: inherit;
+	text-align: center;
+	left: 25%;
+	
+}
+
+.five-day
+{
+	border: solid 0px;
+	height: 150px;
+	padding-top: 20px;
+	
+}
+
+
+.time-1
+{
+	line-height:2em;
+	text-align:center;
+	height:60%;
+	width:18.85%;
+	display: inline-block;
+	border-right:solid 3px rgba(0,0,0,.1);
+}
+
+.time-2
+{
+	line-height:2em;
+	text-align:center;
+	height:60%;
+	width:18.85%;
+	display: inline-block;
+	border-right:solid 3px rgba(0,0,0,.1);
+}
+
+.time-3
+{
+	line-height:2em;
+	text-align:center;
+	height:60%;
+	width:18.85%;
+	display: inline-block;
+	border-right:solid 3px rgba(0,0,0,.1);
+}
+
+.time-4
+{
+	line-height:2em;
+	text-align:center;
+	height:60%;
+	width:18.85%;
+	display: inline-block;
+	border-right:solid 3px rgba(0,0,0,.1);
+}
+
+.time-5
+{
+	line-height:2em;
+	text-align:center;
+	height:60%;
+	width:18.85%;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

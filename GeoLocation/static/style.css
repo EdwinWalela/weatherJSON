@@ -1,0 +1,112 @@
+*{
+	margin:0;
+}
+
+body{
+	
+}
+
+.landing{
+	color:#fff;
+	text-align: center;
+	height: 350px;
+	background: url("sky.png")left;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+
+
+.feel{
+	position: relative;
+	font-size: 1.5em;
+	top:65px;
+	color:rgba(255,255,255,0.9);
+}
+
+.location{
+	position: relative;
+	top:50px;
+	font-size: .9em;
+	color:rgba(255,255,255,0.5);
+}
+.temp{
+	
+	position: relative;
+	font-size: 100px;
+	width: 170px;
+	margin: 0% 30%;
+	top:65px;
+	color:rgba(255,255,255,0.9);
+	animation: bubble 2s infinite ease-in-out;
+}
+
+.search-icon{
+	position: relative;
+	right:-150px;
+	top:100px;
+}
+
+.sun{
+	background-color: #FFEA00;
+	left:18em;
+	top:-4em;
+	border-radius: 100%;
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	animation: sun-dance 15s infinite ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Keyframes*/
+
+@keyframes sun-dance{
+	0%  {transform: scale(1);}
+	50% {transform: scale(.9);}
+	100%{transform: scale(1);}
+}
+
+@keyframes bubble{
+	0%  {transform: scale(1);}
+	50% {transform: scale(1.02);}
+	100%{transform: scale(1);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

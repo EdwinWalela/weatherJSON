@@ -1,0 +1,24 @@
+
+
+// sets up a request
+var ourRequest = new XMLHttpRequest();
+
+//takes two arguments, [GET(download data) or POST(sends data)]
+//then the url containing data(json)
+ourRequest.open('GET','https://joseph-n-movie-max-v1.p.mashape.com/v1/movies/1/theatres')
+ourRequest.setRequestHeader('X-Mashape-Key', 'TBBzvgWdT1mshYktA8aOrkoneMhup1uRPePjsnMLmWFenwP6ad');
+ourRequest.setRequestHeader('Accept', 'application/json');
+    
+
+
+//What should happen once data is loaded.
+ourRequest.onload = function()
+
+{		//browser doesnt recognize incoming data as JSON
+	   //JSON.parse() converts data to JSON
+		var ourData = JSON.parse(ourRequest.responseText);
+		console.log(ourData);
+};
+
+//sends the request
+ourRequest.send();

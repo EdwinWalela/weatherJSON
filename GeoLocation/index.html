@@ -1,0 +1,77 @@
+
+<html>
+<head>
+	<title>GeoLocation</title>
+	<meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/owfont-regular.css">
+    <link rel="stylesheet" type="text/css" href="css/weather-icons.min.css">
+
+   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+
+	
+	
+	<div class="container">
+		<div class="header">
+		<!-- Current location -->
+			<p id="location"></p>
+		</div>
+		
+		<div id="temp">
+			<!--Current Tempreture  -->
+			<p id="current-temp"></p>
+			<!--Current Day -->	
+			<p id="day"></p>
+				<!--Current Condition icon -->	
+				<div class="icon"><i id="weather-icon" class=""></i></div>
+		</div>
+		
+			<!-- Future time Bar -->
+		<div class="five-day timebar">
+			
+			<div class="time-1">
+				<p id="timeNow">Now</p>
+				<i id="timeNow-condition" class=""></i>
+				<p id="tempNow"></p>
+			</div>
+			
+			<div class="time-2">
+				<p id="future-timeA"></p>
+				<i id="timeA-condition" class=""></i>
+				<p id="tempA"></p>
+				
+			</div>
+			
+			<div class="time-3">
+				<p id="future-timeB"></p>
+				<i id="timeB-condition" class=""></i>
+				<p id="tempB"></p>
+				
+			</div>
+			
+			<div class="time-4">
+				<p id="future-timeC"></p>
+				<i id="timeC-condition" class=""></i>
+				<p id="tempC"></p>
+				
+			</div>
+			
+			<div class="time-5">
+				<p id="future-timeD"></p>
+				<i id="timeD-condition" class=""></i>
+				<p id="tempD"></p>
+				
+			</div>
+		</div>
+		
+		<!--End of Future time Bar -->
+
+	</div>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
